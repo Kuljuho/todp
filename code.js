@@ -1,6 +1,10 @@
 function playRound(playerSelection, computerSelection) {
-    let options = ["option1", "option2", "option3"];
+    let options = ["Rock", "Paper", "Scissors"];
     let choice = options[Math.floor(Math.random()*options.length)];
+}
+
+function game() {
+    
 }
 
 const playerSelection = "rock";
